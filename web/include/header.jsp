@@ -1,4 +1,4 @@
 <div class="header">
-    <h1>Software Design Exam 3b</h1>
+    <h1>Outdoor Rental Center</h1>
 </div>
 <br clear="all">
