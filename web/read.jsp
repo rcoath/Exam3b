@@ -22,10 +22,11 @@
             <div class="main">
                 <h1>Customers</h1>
                 <%= table%>
-                <br><br>
+                <br>
+                <br>
                 <a href ="add.jsp">Add a new Customer</a>
                 <br> <br>
-                <a href="search.jsp">Search Customers</a>
+                
 
 
             </div>

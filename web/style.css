@@ -2,12 +2,12 @@ body
 {background-color: azure;}
 
 h1
-{color: white;
+{color: black;
  font-weight: bold;
 font-size: 22px;}
 
 table, td, tr, th 
-{ border: 3px solid white;
+{ border: 1px solid black;
     background-color: white;}
 
 .header
@@ -21,7 +21,6 @@ margin: 0 auto;
 border: 1px solid black;
 margin-top: 5px;
 }
-
 
 .main
 {padding: 25px}

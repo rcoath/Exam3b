@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="model.Customers"%>
-<% Customers cust = (Customers) request.getAttribute("cust");%>
+<% Customers customer = (Customers) request.getAttribute("customer");%>
 
 <!DOCTYPE html>
 <html>
@@ -22,7 +22,7 @@
                  
                         <h1>Update Customer</h1>
                         <label class="field">Customer ID:</label>
-                        <input type="text" name="id" value="<%= cust.getCustID()%>" readonly/>
+                        <input type="text" name="id" value="<%= cust.getID()%>" readonly/>
                         <br>
                         <label class="field">First Name:</label>
                         <input type="text" name="fName" value="<%= cust.getFirstName()%>"/>
@@ -61,7 +61,7 @@
                 </p>
 
             </div>
-            <%@include file="include/footer.jsp" %><!--Footer-->
+            <%@include file="include/footer.jsp" %>
 
         </div> 
     </body>
